@@ -62,5 +62,18 @@
   .BuildWrapper h1 {
     margin-top: 15%;
   }
+
+  .TalentContainer {
+    flex-direction: column;
+    height: max-content;
+  }
+
+  .TalentContainer_Card_Line {
+    border-right: none;
+}
+
+  .TalentContainer_Card{
+    width: 80%;
+  }
     
 }

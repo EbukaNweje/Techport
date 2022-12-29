@@ -188,3 +188,46 @@
     color: rgb(0, 0, 0);
     margin: 10% 0px;
 }
+
+.TalentContainer {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.TalentContainer_Card {
+    width: 50%;
+    height: 65%;
+    margin: 0px 10px;
+    padding: 20px;
+}
+
+.TalentContainer_Card_Line {
+    border-right: 1px solid rgba(0, 0, 0, 0.363);
+}
+
+.TalentContainer_Card h4 {
+  font-family: "Lexend", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  color: rgb(18, 131, 114);
+}
+
+.TalentContainer_Card span {
+  font-family: "Lexend", sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 40px;
+  color: rgb(0, 0, 0);
+}
+
+.TalentContainer_Card p {
+  font-family: "Poppins-Regular";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(38, 36, 41, 0.7);
+  width: 80%;
+}
