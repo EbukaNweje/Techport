@@ -1,12 +1,13 @@
 import React from 'react'
-import Home from "../components/Home"
+// import Home from "../components/Home"
+import About from '../components/About'
 import "../css/style.css"
 import "../css/mobie.css"
 
 const index = () => {
   return (
     <div>
-        <Home/>
+        <About/>
     </div>
   )
 }
