@@ -75,5 +75,33 @@
   .TalentContainer_Card{
     width: 80%;
   }
+
+  
+ .programmeServices {
+  height: max-content;
+}
+
+.serviceContainer {
+  flex-direction: column;
+  height: max-content;
+}
+
+.programServicesDetail {
+  width: 100%;
+}
+
+.programmeServices article {
+  grid-template-columns: auto;
+  width: 100%;
+  margin-top: 10%;
+}
+
+.programmeServices article {
+  height: 100vh;
+}
+
+.programmeServices article .articleImagetext p {
+  font-size: 15px;
+}
     
 }

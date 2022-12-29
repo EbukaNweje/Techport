@@ -121,6 +121,99 @@
     font-size: 25px;
 }
 
+.programmeServices {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background: #FCFAF2;
+}
+
+.serviceContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  width: 80%;
+}
+
+.programServicesDetail {
+  width: 40%;
+}
+
+.programServicesDetail h2 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: normal;
+  color: #003466;
+}
+
+.programServicesDetail p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+  color: rgb(0, 0, 0);
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 0;
+}
+
+.programServicesDetail button {
+  width: 100%;
+  height: 50px;
+  border: none;
+  background-color: rgb(0, 76, 49);
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  border-radius: 5px;
+  margin-top: 4%;
+  font-size: 18px;
+}
+
+.programServicesDetail button:hover {
+  background-color: rgb(28, 112, 123);
+}
+
+.programmeStart {
+  display: flex;
+  align-items: center;
+}
+
+.programmeStart p {
+  font-family: "Poppins", sans-serif;
+}
+
+.programmeServices article {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 50%;
+  height: 60vh;
+  margin-top: 3%;
+}
+
+.programmeServices article .articleImagetext {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.programmeServices article .articleImagetext img {
+  width: 20%;
+  height: 8vh;
+}
+
+.programmeServices article .articleImagetext p {
+  width: 70%;
+  text-align: center;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: normal;
+  color: rgb(0, 0, 0);
+  font-family: "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+}
+
 .BuildContainer {
     width: 100%;
     height: 100vh;
