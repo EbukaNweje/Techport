@@ -1,0 +1,22 @@
+@media (max-width: 900px) {
+  .aboutContainer {
+    flex-direction: column;
+  }
+
+  .aboutImage {
+    width: 100%;
+  }
+
+  .aboutText {
+    width: 100%;
+  }
+
+  .aboutText h1 {
+    width: 100%;
+  }
+
+  .aboutText p {
+    font-size: 15px;
+    width: 100%;
+  }
+}
