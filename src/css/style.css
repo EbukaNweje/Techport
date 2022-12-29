@@ -1,5 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Inter:wght@600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 .Container {
   width: 100%;
   height: 95vh;
-  background: url();
+  background: linear-gradient( to right top, rgba(2, 10, 121, 0.863), rgba(16, 0, 105, 0.493)), url("../asset/pexels-andrea-piacquadio-3813341.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+
+.Container .Wrapper {
+    width: 35%;
+    height: 75vh;
+    margin-left: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Logo {
+    width: 30%;
+}
+
+.Container .Wrapper h3 {
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    line-height: 55px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.Container .Wrapper span {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 22.5px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.Container .Wrapper button {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    line-height: 22.5px;
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+    height: 50px;
+    width: 170px;
+    background-color: rgb(6, 149, 168);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transform: scale(1);
+    transition: all 350ms;
+}
+
+.Container .Wrapper button:hover{
+    transform: scale(1.07);
+}
+
+.Container .Wrapper p {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 22.5px;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.Container .Wrapper p:hover {
+    text-decoration: none;
+}
+
+.Arrow {
+    font-size: 25px;
 }

@@ -1,0 +1,12 @@
+@media(max-width: 900px){
+    .Container {
+        justify-content: center;
+    }
+
+    .Container .Wrapper {
+        margin-left: 0px;
+        width: 90%;
+        height: 80vh;
+    }
+    
+}
