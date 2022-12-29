@@ -28,6 +28,8 @@
   display: flex;
   gap: 10%;
   margin-inline: 10%;
+  height: 80vh;
+  align-items: center;
 }
 
 .aboutText {
