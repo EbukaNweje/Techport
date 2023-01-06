@@ -1,10 +1,14 @@
-
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Inter:wght@600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Inter:wght@600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 .Container {
   width: 100%;
   height: 95vh;
-  background: linear-gradient( to right top, rgba(2, 10, 121, 0.863), rgba(16, 0, 105, 0.493)), url("../asset/pexels-andrea-piacquadio-3813341.jpg");
+  background: linear-gradient(
+      to right top,
+      rgba(2, 10, 121, 0.863),
+      rgba(16, 0, 105, 0.493)
+    ),
+    url("../asset/pexels-andrea-piacquadio-3813341.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -50,75 +54,75 @@
 }
 
 .Container .Wrapper {
-    width: 35%;
-    height: 75vh;
-    margin-left: 120px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  width: 35%;
+  height: 75vh;
+  margin-left: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .Logo {
-    width: 30%;
+  width: 30%;
 }
 
 .Container .Wrapper h3 {
-    font-size: 40px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    line-height: 55px;
-    color: rgb(255, 255, 255);
-    text-align: center;
+  font-size: 40px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  line-height: 55px;
+  color: rgb(255, 255, 255);
+  text-align: center;
 }
 
 .Container .Wrapper span {
-    font-size: 20px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    line-height: 22.5px;
-    color: rgb(255, 255, 255);
-    text-align: center;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 22.5px;
+  color: rgb(255, 255, 255);
+  text-align: center;
 }
 
 .Container .Wrapper button {
-    font-size: 18px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    line-height: 22.5px;
-    color: rgb(255, 255, 255);
-    margin-top: 30px;
-    height: 50px;
-    width: 170px;
-    background-color: rgb(6, 149, 168);
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transform: scale(1);
-    transition: all 350ms;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  line-height: 22.5px;
+  color: rgb(255, 255, 255);
+  margin-top: 30px;
+  height: 50px;
+  width: 170px;
+  background-color: rgb(6, 149, 168);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transform: scale(1);
+  transition: all 350ms;
 }
 
-.Container .Wrapper button:hover{
-    transform: scale(1.07);
+.Container .Wrapper button:hover {
+  transform: scale(1.07);
 }
 
 .Container .Wrapper p {
-    font-size: 15px;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    line-height: 22.5px;
-    color: rgb(255, 255, 255);
-    text-decoration: underline;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  line-height: 22.5px;
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
 }
 
 .Container .Wrapper p:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .Arrow {
-    font-size: 25px;
+  font-size: 25px;
 }
 
 .programmeServices {
@@ -126,7 +130,7 @@
   height: 100vh;
   display: flex;
   justify-content: center;
-  background: #FCFAF2;
+  background: #fcfaf2;
 }
 
 .serviceContainer {
@@ -215,19 +219,19 @@
 }
 
 .BuildContainer {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    background-color: #F6F6F6;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: #f6f6f6;
 }
 
 .BuildWrapper {
-    width: 90%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .BuildWrapper h1 {
@@ -239,30 +243,30 @@
   margin-top: 3%;
 }
 
-.BuildWrapper span{
-    width: 50%;
-    text-align: center;
-    margin-top: 3%;
-    font-family: "Poppins", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    color: rgb(0, 0, 0);
+.BuildWrapper span {
+  width: 50%;
+  text-align: center;
+  margin-top: 3%;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgb(0, 0, 0);
 }
 
 .BuildWrapper_article {
-    width: 100%;
-    display: flex;
-    height: 70%;
+  width: 100%;
+  display: flex;
+  height: 70%;
 }
 
 .BuildWrapper_article article {
-    width: 30%;
-    height: 80%;
-    background: #ECECEC;
-    margin-top: 5%;
-    margin: 4% 30px;
-    padding: 20px;
+  width: 30%;
+  height: 80%;
+  background: #ececec;
+  margin-top: 5%;
+  margin: 4% 30px;
+  padding: 20px;
 }
 
 .BuildWrapper_article article h4 {
@@ -274,12 +278,12 @@
 }
 
 .BuildWrapper_article article ul li {
-    font-weight: "Poppins";
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 24px;
-    color: rgb(0, 0, 0);
-    margin: 10% 0px;
+  font-weight: "Poppins";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  color: rgb(0, 0, 0);
+  margin: 10% 0px;
 }
 
 .TalentContainer {
@@ -290,14 +294,14 @@
 }
 
 .TalentContainer_Card {
-    width: 50%;
-    height: 65%;
-    margin: 0px 10px;
-    padding: 20px;
+  width: 50%;
+  height: 65%;
+  margin: 0px 10px;
+  padding: 20px;
 }
 
 .TalentContainer_Card_Line {
-    border-right: 1px solid rgba(0, 0, 0, 0.363);
+  border-right: 1px solid rgba(0, 0, 0, 0.363);
 }
 
 .TalentContainer_Card h4 {
@@ -323,4 +327,171 @@
   line-height: 24px;
   color: rgba(38, 36, 41, 0.7);
   width: 80%;
+}
+
+.QuestionsContainer {
+  width: 100%;
+  height: max-content;
+  background-color: #fcfaf2;
+  display: flex;
+  justify-content: center;
+}
+
+.QuestionsBody {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.QuestionsBodyHeader {
+  margin-top: 5%;
+}
+
+.QuestionsBodyHeader h1 {
+  font-family: "Lexend", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 35px;
+  color: rgb(0, 52, 102);
+}
+
+.QuestionsBodyText h5 {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: rgb(18, 131, 114);
+  margin-bottom: 0px;
+}
+
+.QuestionsBodyText p {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: rgb(0, 0, 0);
+}
+
+.FooterContainer {
+  width: 100%;
+  height: 40vh;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+}
+
+.FooterContainer img {
+  width: 10%;
+}
+
+.FooterContainer span {
+  margin-top: 4%;
+}
+
+.ApplicationsContainer {
+  width: 100%;
+  height: max-content;
+  background: #f5f7f7;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.LogoContainer {
+  width: 30%;
+  height: 30vh;
+  margin: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.LogoContainer img {
+  width: 70%;
+}
+
+.ApplicationsBody {
+  width: 60%;
+  height: 80%;
+  background: white;
+  margin-bottom: 20px;
+}
+
+.ApplicationsBodyHeader {
+  width: 90%;
+  height: 10%;
+  background: #fafbff;
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+  align-items: center;
+  margin: 4% auto;
+}
+
+.ApplicationsBodyHeader h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 28px;
+  color: rgb(0, 0, 0);
+}
+
+.ApplicationsBodyPrg {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.ApplicationsBodyPrg p {
+  width: 80%;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.ApplicationsForm {
+  margin-top: 10%;
+  width: 100%;
+  height: max-content;
+  display: flex;
+  justify-content: center;
+}
+
+.ApplicationFormBody {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.ApplicationFormBody input, select {
+  width: 100%;
+  height: 50px;
+  padding-left: 10px;
+  margin: 10px 0px;
+  outline: none;
+  border: 1px solid lightgray;
+}
+
+.ApplicationFormBody button {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  line-height: 22.5px;
+  color: rgb(255, 255, 255);
+  margin-top: 30px;
+  height: 50px;
+  width: 100%;
+  background-color: rgb(6, 149, 168);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transform: scale(1);
+  transition: all 350ms;
+  margin-bottom: 20px;
 }

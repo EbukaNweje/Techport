@@ -4,6 +4,7 @@ import image2 from "../asset/pImage1.png";
 import image3 from "../asset/pImage2.png";
 import image4 from "../asset/pImage3.png";
 import image5 from "../asset/pImage4.png";
+import { Link } from 'react-router-dom'
 
 function Services() {
     return (
@@ -20,7 +21,9 @@ function Services() {
             <div className="programmeStart">
               <p> <b>Programme Start:</b> Monday 23 January 2023</p>
             </div>
+            <Link to="/applications">
             <button>Apply Today</button>
+            </Link>
           </div>
   
           <article>

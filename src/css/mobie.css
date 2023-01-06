@@ -96,12 +96,29 @@
   margin-top: 10%;
 }
 
+
 .programmeServices article {
   height: 100vh;
 }
 
 .programmeServices article .articleImagetext p {
   font-size: 15px;
+}
+
+.LogoContainer {
+  width: 100%;
+}
+
+.LogoContainer img{
+  width: 100%;
+}
+
+.ApplicationsBody {
+  width: 90%;
+}
+
+.ApplicationsBodyHeader h3 {
+  text-align: center;
 }
     
 }
