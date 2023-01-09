@@ -16,7 +16,7 @@ function About() {
           digital transformation taking place across the business landscape.
           <br />
           <br />
-          Our 12-month ALX Software Engineering Programme prepares you with the
+          Our 6-month Tech Port Software Engineering Programme prepares you with the
           technical and work-ready skills for a global career as a Full-Stack
           Developer.
         </p>

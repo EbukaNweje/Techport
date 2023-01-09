@@ -495,3 +495,8 @@
   transition: all 350ms;
   margin-bottom: 20px;
 }
+
+.StartDate {
+  font-size: 15px;
+  margin-top: 3%;
+}

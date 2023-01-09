@@ -11,7 +11,7 @@ const talent = () => {
         <div className='TalentContainer_Card'>
         <h4>BEGINNING</h4>
             <span>Go further with The ROOM and build your network of success</span>
-            <p>After completing your ALX program, you are invited to join The ROOM as a Fellow. Access a world class community of global employer partners, influential leaders and mentors, and a diverse network of like-minded peers.</p>
+            <p>After completing your Tech Port program, you are invited to join The ROOM as a Fellow. Access a world class community of global employer partners, influential leaders and mentors, and a diverse network of like-minded peers.</p>
         </div>
     </div>
   )

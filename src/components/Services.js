@@ -14,12 +14,12 @@ function Services() {
             <h2>Founded in Silicon Valley. Built for Africa.</h2>
             <p>
               Gain the technical capabilities and the job-ready skills employers
-              require. Through your ALX software engineering programme you will
+              require. Through your Tech Port software engineering programme you will
               benefit from your peer community, unlock new experiences, and
               connect to opportunities that will make an impact.
             </p>
             <div className="programmeStart">
-              <p> <b>Programme Start:</b> Monday 23 January 2023</p>
+              <p> <b>Programme Start:</b> Monday 6 February 2023</p>
             </div>
             <Link to="/applications">
             <button>Apply Today</button>
@@ -37,7 +37,7 @@ function Services() {
             </div>
             <div className="articleImagetext">
               <img src={image3} alt="articleImage3" />
-              <p>Programme fees waived in 2022</p>
+              <p>Programme fees waived in 2023</p>
             </div>
             <div className="articleImagetext">
               <img src={image4} alt="articleImage4" />
