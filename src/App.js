@@ -1,7 +1,6 @@
 import React from 'react'
 import All from "./page/All"
 import Applications  from "./page/Applications"
-import Footer from './components/Footer'
 // import Totop from './components/Totop'
 import {
   createRoutesFromElements,
@@ -9,6 +8,8 @@ import {
   RouterProvider,
   Route
 } from "react-router-dom";
+import Login from './dashboard/Login'
+import DeshboardMain from './dashboard/DeshboardMain';
 
 const App = () => {
 const router =  createBrowserRouter(
@@ -16,13 +17,14 @@ const router =  createBrowserRouter(
       <Route>
         <Route path='/' element={<All />} />
         <Route path="/applications" element={<Applications />} />
+        <Route path="/welcomelogin" element={<Login />} />
+        <Route path="/TechPort_Dashboard/:userid" element={<DeshboardMain />} />
       </Route>
     )
   )
   return (
     <div>
       <RouterProvider router= {router}/>
-      <Footer/>
     </div>
   )
 }

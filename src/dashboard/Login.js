@@ -1,9 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 import style from 'styled-components'
 import { AiOutlineEye } from 'react-icons/ai'
-import { Link } from 'react-router-dom'
+import Logo from "../asset/Tech Port full.png"
 
-const login = () => {
+const Login = () => {
     const [wrongEmail, setWrongEmail] = useState(false)
     const [wrongPassword, setWrongPassword] = useState(false)
     const [passwordShow, setPasswordShow] = useState(false)
@@ -13,13 +13,15 @@ const login = () => {
         }
   return (
     <Maincontainer>
+
     <CardBodyWrapper>
+      <Image src={Logo} alt="Logo" />
       <CardBody>
           <Header>
             <HeaderText>Log in</HeaderText>
-            <HeaderLink>If you have no account, <span> <Link to="/signup"
+            {/* <HeaderLink>If you have no account, <span> <Link to="/signup"
             style={{textDecoration: "none", color:"rgba(0, 76, 189, 1)"}}
-            >Sign up</Link> </span></HeaderLink>
+            >Sign up</Link> </span></HeaderLink> */}
           </Header>
             <FromData>
                 <EmailInput>
@@ -44,7 +46,8 @@ const login = () => {
                   </PasswordInfo> : ""
                   }
                 </PasswordInput>
-                <Button>Sign Up</Button>
+                 <HeaderLink>Forgot Password?</HeaderLink>
+                <Button>Login</Button>
             </FromData> 
       </CardBody>
     </CardBodyWrapper>
@@ -52,8 +55,11 @@ const login = () => {
   )
 }
 
-export default login
+export default Login
 
+const Image = style.img`
+  width: 200px;
+`
 const Button = style.button`
   width: 102%;
   height: 40px;
@@ -72,7 +78,6 @@ span{
     font-size: 12px;
     line-height: 15px;
     color: #F41E10;
-  
 }
 `
 const PasswordIcon = style.div`
@@ -148,15 +153,12 @@ const HeaderLink = style.div`
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
-  color: #777777;
-
-  span{
-    color: rgba(0, 76, 189, 1);
-    cursor: pointer;
-  }
+  color: rgba(0, 76, 189, 1);
+  cursor: pointer;
+  margin-top: 10px;
 `
 const HeaderText = style.div`
-  margin-top: 3%;
+  // margin-top: 3%;
   width: 230px;
   height: 29px;
   font-family: sans-serif;
@@ -192,7 +194,8 @@ const CardBodyWrapper = style.div`
 -webkit-box-shadow: 2px 2px 5px -6px rgba(0,0,0,0.69);
 -moz-box-shadow: 2px 2px 5px -6px rgba(0,0,0,0.69);
 display: flex;
-justify-content: center;
+align-items: center;
+flex-direction: column;
 `
 
 const CardBody = style.div`

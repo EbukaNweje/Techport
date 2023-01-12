@@ -5,7 +5,7 @@ import Build from '../components/Build'
 import Talent  from '../components/Talent'
 import Services  from '../components/Services'
 import Questions from  '../components/Questions'
-// import Footer from '../components/Footer'
+import Footer from '../components/Footer'
 import "../css/style.css"
 import "../css/mobie.css"
 
@@ -18,6 +18,7 @@ const All = () => {
       <Build/>
       <Talent/>
       <Questions/>
+      <Footer/>
     </div>
   )
 }
