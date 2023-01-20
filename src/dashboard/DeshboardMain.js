@@ -1,15 +1,29 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styled from 'styled-components'
 import DashBoardBody from './DashBoardBody'
 import DashMenuBar from './DashMenuBar'
+import Rituals from './Rituals'
+import Attendance from './Attendance'
 
 
 const DeshboardMain = () => {
+  const [home, setHome] = useState(true)
+    const [rituals, setRituals] = useState(false)
+    const [attendance, setAttendance] = useState(false)
+
   return (
     <MainContainer>
-        <MenuBarSide><DashMenuBar/></MenuBarSide>
+        <MenuBarSide><DashMenuBar Home={setHome} Ritual={setRituals} Attendances={setAttendance}  /></MenuBarSide>
         <ContextSide>
-            <DashBoardBody/>
+        {
+                home ? (
+                    <DashBoardBody />
+                ): rituals ?(
+                    <Rituals />
+                ): attendance ? (
+                    <Attendance />
+                ):null
+        }
         </ContextSide>
     </MainContainer>
   )

@@ -3,13 +3,29 @@ import styled from 'styled-components'
 import Logo from "../asset/Tech Portnew.PNG"
 import { MdOutlineSpaceDashboard } from 'react-icons/md'
 import { BiBookBookmark } from 'react-icons/bi'
-import { AiOutlineFolderView, AiOutlineCalendar } from 'react-icons/ai'
+import { AiOutlineCalendar } from 'react-icons/ai'
+// import { AiOutlineFolderView } from 'react-icons/ai'
 
-const DashMenuBar = () => {
+const DashMenuBar = ({Home, Ritual, Attendances}) => {
+    const Homeshow = () =>{
+        Home(true)
+        Ritual(false)
+        Attendances(false)
+    }
+    const Ritualshow = () =>{
+        Home(false)
+        Ritual(true)
+        Attendances(false)
+    }
+    const Attendanceshow = () =>{
+        Home(false)
+        Ritual(false)
+        Attendances(true)
+    }
   return (
     <MainContainer>
        <ImageContainer> <Image src={Logo} atl="text" /></ImageContainer>
-       <MenuList>
+       <MenuList onClick={()=>Homeshow()}>
             <MenuHeader>HOME</MenuHeader>
             <MyMenu>
                 <MdOutlineSpaceDashboard style={{color: "lightgrey"}}/>
@@ -18,15 +34,17 @@ const DashMenuBar = () => {
        </MenuList>
        <MenuList>
             <MenuHeader>LEARN</MenuHeader>
-            <MyMenu>
+            <MyMenu onClick={()=>Ritualshow()}>
                 <BiBookBookmark style={{color: "lightgrey"}}/>
-                <span>Daily Rituals</span>
-            </MyMenu>
-            <MyMenu>
-                <AiOutlineFolderView style={{color: "lightgrey"}}/>
                 <span>View Progress</span>
             </MyMenu>
-            <MyMenu>
+            {/* <MyMenu>
+                <AiOutlineFolderView style={{color: "lightgrey"}}/>
+                <span>View Progress</span>
+            </MyMenu> */}
+            <MyMenu 
+            onClick={()=>Attendanceshow()}
+            >
                 <AiOutlineCalendar style={{color: "lightgrey"}}/>
                 <span>Attendance & Absences</span>
             </MyMenu>
